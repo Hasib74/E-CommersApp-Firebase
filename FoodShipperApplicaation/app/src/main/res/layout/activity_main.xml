@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dcl.foodshipperapplicaation.MainActivity">
+
+    <EditText
+        android:hint="Enter Your Number"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/getName"/>
+
+        <!--app:met_baseColor="@color/colorPrimary"
+        app:met_underlineColor="@color/fbutton_default_color"
+        app:met_floatingLabel="highlight"
+        app:met_autoValidate="true"
+    />-->
+
+    <EditText
+        android:layout_below="@+id/getName"
+        android:hint="Enter Your Password"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/getPassword"/>
+
+
+        <!--app:met_baseColor="@color/colorPrimary"
+        app:met_underlineColor="@color/fbutton_default_color"
+        app:met_floatingLabel="highlight"
+        app:met_autoValidate="true"
+        />-->
+
+
+    <Button
+        android:id="@+id/logInShipper"
+        android:layout_below="@+id/getPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="17dp"
+        android:text="Sing In"
+        />
+
+       <!-- app:cornerRadius="10dp"
+        android:background="@android:color/white"
+        app:shadowColor="@color/cardview_dark_background"-->
+
+
+
+</RelativeLayout>

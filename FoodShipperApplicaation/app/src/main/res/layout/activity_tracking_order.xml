@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TrackingOrder" >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".TrackingOrder" />
+
+    <LinearLayout
+        android:padding="5dp"
+        android:weightSum="2"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+       <Button
+           android:padding="4dp"
+           android:background="@android:color/transparent"
+           android:layout_weight="1"
+           android:text="Call"
+           android:textSize="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/phoneCallToClient"/>
+        <Button
+            android:padding="4dp"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/transparent"
+            android:layout_weight="1"
+            android:text="Order Shipped"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnShipped"/>
+
+    </LinearLayout>
+</RelativeLayout>

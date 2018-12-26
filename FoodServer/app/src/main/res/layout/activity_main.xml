@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    tools:context="com.example.hasib.foodserver.MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="500dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btsingIn"
+            android:layout_margin="8dp"
+
+            app:buttonColor="#C62828"
+            app:shadowHeight="4dp"
+
+            android:shadowColor="#E57373"
+            android:text="Sing In"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

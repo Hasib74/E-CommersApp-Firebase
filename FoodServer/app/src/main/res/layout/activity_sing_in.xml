@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/foodb"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hasib.foodserver.SingIn">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="350dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:hint="Enter Name"
+             android:text="01741155640"
+            android:id="@+id/Mnumber"
+            android:inputType="number"
+            android:textSize="20sp"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="#000"
+            app:met_floatingLabel="highlight"
+
+            app:met_baseColor="#000"
+
+            android:background="#000"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:text="akonhasib"
+            android:id="@+id/MPassword"
+            android:inputType="textPassword"
+            android:textSize="10sp"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="#000"
+            app:met_floatingLabel="highlight"
+
+            app:met_baseColor="#000"
+
+            android:background="#000"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            tools:ignore="SmallSp" />
+        <info.hoang8f.widget.FButton
+            app:buttonColor="#C62828"
+            app:shadowHeight="4dp"
+            android:id="@+id/buttonSingIn"
+            android:layout_margin="10dp"
+            android:shadowColor="#E57373"
+            android:text="@string/string_log_in"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FoodServer</string>
+    <string name="log_in">Log In</string>
+    <string name="string_log_in">logIn</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="admin">Admin</string>
+    <string name="enter_item_name">Enter Item Name</string>
+    <string name="name">Name</string>
+    <string name="food_name">food_name</string>
+    <string name="_1111">1111</string>
+    <string name="status">Status</string>
+    <string name="_12345">12345</string>
+    <string name="adress">adress</string>
+    <string name="title_activity_order_tracking">Map</string>
+    <string name="details">Details</string>
+</resources>

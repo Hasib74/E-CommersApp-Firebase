@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="4dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <!--  <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:id="@+id/setMenuname"
+            android:inputType="text"
+
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+
+            app:met_baseColor="@color/colorPrimary"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name"
+            />-->
+        <EditText
+            android:id="@+id/setMenuname"
+            android:inputType="text"
+
+
+
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:textSize="25sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/name" />
+        <LinearLayout
+
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <!-- <info.hoang8f.widget.FButton
+
+                app:buttonColor="#ea4e4e"
+                app:shadowHeight="5dp"
+                android:id="@+id/selectBt"
+                app:shadowColor="@color/cardview_dark_background"
+
+                android:saveEnabled="true"
+                app:shadowEnabled="true"
+
+                android:shadowColor="#E57373"
+                android:text="SELECT"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"/>-->
+            <Button
+                android:background="#ea4e4e"
+
+                android:id="@+id/selectBt"
+
+
+
+                android:text="SELECT"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp" />
+
+           <!-- <info.hoang8f.widget.FButton
+                app:shadowColor="@color/cardview_dark_background"
+                app:buttonColor="#792727"
+                app:shadowHeight="5dp"
+                android:id="@+id/uploadBt"
+                app:shadowEnabled="true"
+                android:shadowColor="#E57373"
+                android:text="UPLOAD"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+-->
+
+            <Button
+
+                android:id="@+id/uploadBt"
+
+                android:shadowColor="#E57373"
+                android:text="UPLOAD"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"  />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.v7.widget.CardView>

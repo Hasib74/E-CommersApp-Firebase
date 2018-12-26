@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "289443382226",
+    "firebase_url": "https://food-application-d3137.firebaseio.com",
+    "project_id": "food-application-d3137",
+    "storage_bucket": "food-application-d3137.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289443382226:android:74137cb42b2c3340",
+        "android_client_info": {
+          "package_name": "com.example.hasib.foodapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289443382226-p649i5oi1d10r68sgcobv7n3tahtdsjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasib.foodapplication",
+            "certificate_hash": "51f0f060cc36891f65db456ecee1b0bf8fcdcaa6"
+          }
+        },
+        {
+          "client_id": "289443382226-vpcrcrtb6lq22lt0i6sj8mpjh4eui1cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGc0IjyUVspKsl5sbyUMuyYF_hwJl4qz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289443382226-vpcrcrtb6lq22lt0i6sj8mpjh4eui1cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289443382226:android:644d2bdcb0cf5cf2",
+        "android_client_info": {
+          "package_name": "com.example.hasib.foodserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289443382226-tr23igedctqg8r0tdhogahophglaklj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hasib.foodserver",
+            "certificate_hash": "51f0f060cc36891f65db456ecee1b0bf8fcdcaa6"
+          }
+        },
+        {
+          "client_id": "289443382226-vpcrcrtb6lq22lt0i6sj8mpjh4eui1cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGc0IjyUVspKsl5sbyUMuyYF_hwJl4qz0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289443382226-vpcrcrtb6lq22lt0i6sj8mpjh4eui1cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
